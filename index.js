@@ -15,6 +15,7 @@ async function func(){
 </div>
 <div class="weather">
     <p>Sky Conditions: <span><a>${data.weather[0].description}</a></span></p>
+    <p><img src=${data.weather[0].icon}></p>
     <p>Temperature:<span> <a>${data.main.temp}°C</a><span></p>
     <p>Humidity:<span> <a>${data.main.humidity}g/m3</a></span></p>
     <p>Wind Speed: <span><a>${data.wind.speed} km/h </a></span></p>
