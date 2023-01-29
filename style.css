@@ -11,7 +11,7 @@ body{
 }
 header{
     width: 100%;
-    height: 70px;
+    height: 71px;
     background-color: darkcyan;
     display: flex;
     align-items: center;
@@ -19,8 +19,8 @@ header{
 }
 header div{
     width: 700px;
-    height: 50px;
-    font-size: 23px;
+    height: 60px;
+    font-size: 25px;
     font-family: arial;
     background-color: aliceblue;
     display: flex;
