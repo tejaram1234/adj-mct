@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(9, 203, 224); ;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header div{
+    width: 700px;
+    height: 60px;
+    font-size: 25px;
+    font-family: arial;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px lightblue;
+    border: none;
+    outline: none;
+}
+main{
+    width: 100%;
+    height: 93vh;
+    background-color: rgb(9, 203, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.row{
+width: 100%;
+margin: 20px;
+ display: flex;
+align-items: center;
+justify-content: center; 
+flex-direction: column;
+}
+#search{
+    font-size: 27px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px gray;
+}
+button{
+    width:100px;
+    height:40px;
+    margin-top: 10px;
+    background-color:darkseagreen;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.name{
+    width:500px;
+    height:50px;
+    background-color: azure;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-family: arial;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px grey;
+}
+p{
+    margin-top: 10px;
+    color: rgb(42, 39, 39);
+    font-family: arial;
+    font-weight: 600;
+}
+p span{
+    color:rgb(247, 145, 145)
+}
+.weather{
+    width: 400px;
+    height:250px;
+    margin-top: 15px;
+    background-color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px grey;
+    
+}
+ span{
+    color:rgb(142, 246, 142)
+}
+@media only screen and (max-width:700px){
+    header{
+        width: 100%;
+        height: 70px;
+        background-color: darkcyan;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header div{
+        width: 250px;
+        height: 40px;
+        font-size: 12px;
+        font-family: arial;
+        background-color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 0px 0px 0px 5px lightblue;
+        border: none;
+        outline: none;
+    }
+    #search{
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        box-shadow: 0px 0px 5px gray;
+    }
+    .name{
+        width:250px;
+        height:50px;
+        background-color: azure;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 18px;
+        font-family: arial;
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px grey;
+    }
+    .weather{
+        width: 230px;
+        height:280px;
+        margin-top: 15px;
+        background-color: white;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px grey;
+        
+    }
+}
