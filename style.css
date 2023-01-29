@@ -18,7 +18,7 @@ header{
     justify-content: center;
 }
 header div{
-    width: 720px;
+    width: 700px;
     height: 60px;
     font-size: 25px;
     font-family: arial;
@@ -64,7 +64,7 @@ button{
     font-size: 20px;
 }
 .name{
-    width:500px;
+    width:530px;
     height:50px;
     background-color: azure;
     align-items: center;
@@ -79,7 +79,7 @@ p{
     margin-top: 10px;
     color: rgb(42, 39, 39);
     font-family: arial;
-    font-weight: 500;
+    font-weight: 600;
 }
 p span{
     color:rgb(247, 145, 145)
@@ -139,7 +139,7 @@ p span{
         align-items: center;
         justify-content: center;
         display: flex;
-        font-size: 18px;
+        font-size: 15px;
         font-family: arial;
         border-radius: 15px;
         box-shadow: 0px 0px 5px grey;
@@ -149,7 +149,7 @@ p span{
         height:280px;
         margin-top: 15px;
         background-color: white;
-        font-size: 12px;
+        font-size: 14px;
         display: flex;
         flex-direction: column;
         align-items: center;
