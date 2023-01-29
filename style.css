@@ -79,7 +79,7 @@ p{
     margin-top: 10px;
     color: rgb(42, 39, 39);
     font-family: arial;
-    font-weight: 600;
+    font-weight: 500;
 }
 p span{
     color:rgb(247, 145, 145)
@@ -149,7 +149,7 @@ p span{
         height:280px;
         margin-top: 15px;
         background-color: white;
-        font-size: 14px;
+        font-size: 12px;
         display: flex;
         flex-direction: column;
         align-items: center;
